@@ -1,5 +1,5 @@
 .home{
-	background-image: url("scr/wallpaper.png");
+	background-image: url("file:///C:/desenvolvimento/jokempo/scr/img/wallpaper.png");
 	background-size:cover;
 	background-repeat: no-repeat;
 	display: flex;
