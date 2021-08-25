@@ -1,0 +1,179 @@
+.home{
+	background-image: url("/scr/img/wallpaper.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.title{
+	color: #ffff;
+	font-weight: 400;
+	font-size: 35px;
+	background-color: rgb(42, 8, 69);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 20px 50px 20px 50px ;
+	border-radius: 17px 17px 0 0;
+}
+
+.scoreboard-box{
+	display: flex;
+	background-color: rgb(42, 8, 69);
+	align-items: center;
+	padding: 15px 30px;
+	border-radius: 17px;
+}
+
+.name-player{
+	color: #ffff;
+	font-size: 30px;
+	font-weight: 700px;
+}
+
+.scoreboard{
+	color: rgb(42, 8, 69);
+	background-color: rgb(185, 147, 214);
+	font-size: 100px;
+	font-weight: 700;
+	border-radius: 17px;
+	padding: 0 7px 0 7px ;
+}
+
+.separation-header{
+	color: #ffff;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.name-player1{
+	margin-right: 15px;
+}
+
+.name-player2{
+	margin-left: 15px;
+}
+
+
+.separation-header{
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.battle-container{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.buttons-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.button{
+	background-color: rgb(80, 47, 133);
+	color: #ffff;
+	border: none;
+	border-radius: 5px;
+	width: 170px;
+	height: 65px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.button:hover{
+	background-color: rgb(185, 147, 214);
+	color: rgb(42, 8, 69);
+	box-shadow: 7px 7px 0px  #41295a;
+	transition: 400ms;
+}
+
+.box-button-wrapper{
+	display: flex;
+}
+
+.button-start{
+	margin-right: 120px;
+}
+
+.button-start, .button-reset{
+	background-color: rgb(42, 8, 69);
+}
+
+.battlefield{
+	background-color: rgb(42, 8, 69);
+	border-radius: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 15px 0 15px;
+}
+
+.field{
+	background-color: rgb(185, 147, 214);
+	border-radius: 20px;
+	width: 370px;
+	height: 270px;
+	margin: 23px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field-winner{
+	background-color: rgb(153, 230, 129);
+	border-radius: 20px;
+	width: 370px;
+	height: 270px;
+	margin: 23px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field-gameover{
+	background-color: rgb(230, 129, 129);
+	border-radius: 20px;
+	width: 370px;
+	height: 270px;
+	margin: 23px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.separation-field{
+	color: #ffff;
+	font-weight: 700;
+	font-size: 80px;
+	margin: 0 40px;
+}
+
+.image-buttons{
+	width: 80%;
+}
+
+.field-2 .image-buttons{
+	transform: scaleX(-1);
+}
+
+.button-play{
+	background-color: rgb(114, 86, 240);
+	color: rgb(37, 8, 69);
+	box-shadow: 7px 7px 0px  #402270;
+	transition: 400ms;
+}
